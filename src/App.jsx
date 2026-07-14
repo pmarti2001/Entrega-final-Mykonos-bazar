@@ -10,6 +10,7 @@ import { AuthProvider } from './context/AuthContext';
 import { CarritoProvider } from './context/CarritoContext';
 
 function App() {
+  // Cambio de despliegue para GitHub Actions
   return (
     <AuthProvider>
       <CarritoProvider>
